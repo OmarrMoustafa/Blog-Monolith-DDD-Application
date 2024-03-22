@@ -172,3 +172,4 @@ Repositories are a way of achieving a single responsibility (as in SOLID’s si
 
 ## Architectural View
 
+![Architectural View](https://github.com/OmarrMoustafa/Blog-Monolith-DDD-Application/assets/120117521/5a53ec67-78f2-48e0-ac1e-5bf901bbc3a9)
