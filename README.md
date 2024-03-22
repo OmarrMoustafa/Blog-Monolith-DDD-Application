@@ -30,22 +30,7 @@ public record Post(int Id, string Content, Author Author,
     , int NumberOfViews, …);
 ```
 
-This is usually transferred in JSON. This is an example of the preceding C# contract being serialized as JSON:
-
-```json
-{
-  "id": 1,
-  "content": "Some content",
-  "author": {
-    "id": 100,
-    "name": "John Smith"
-  },
-  "createdDate": "2022-01-01T01:01:01",
-  "numberOfComments": 5,
-  "numberOfViews": 486,
-  …
-}
-```
+This is usually transferred in JSON.
 
 Contracts are not part of the DDD philosophy, but they are needed here to have a complete application.
 
