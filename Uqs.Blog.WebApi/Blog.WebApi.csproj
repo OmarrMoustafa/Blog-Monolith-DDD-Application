@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uqs.Blog.Contract\Blog.Contract.csproj" />
+    <ProjectReference Include="..\Uqs.Blog.Domain\Blog.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
