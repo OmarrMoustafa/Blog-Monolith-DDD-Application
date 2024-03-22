@@ -67,7 +67,7 @@ The previous blog classes set a distinguished business objective, which is manag
 
 In an anemic model, the client interprets the purpose and use of the domain object, and the business logic ends up being implemented in other classes. An anemic model is considered an anti-pattern, as it opposes the theories of OOP.
 
-Obviously, we have not followed the DDD recommendation in our implementation and wrote the UpdateTitle method in the service class.
+Obviously, we have not followed the DDD recommendation in our implementation and wrote the **UpdateTitle** method in the service class.
 
 ## Domain Services
 
